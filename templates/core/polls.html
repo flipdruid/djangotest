@@ -1,0 +1,18 @@
+ {% extends 'core/base.html' %}
+
+ {% block content %}
+ 
+ <div class="container-fluid">
+     <div class="row">
+        <div class="col-lg-2"></div>
+            <div class="col-lg-8">
+                <h2 class="pt-5">{{ poll.poll_title }}</h2>
+                <small class="text-muted">Author: {{poll.author}}</small>
+                
+            </div>
+
+        <div class="col-lg-2"></div>
+     </div>
+ </div>
+
+ {% endblock %}
